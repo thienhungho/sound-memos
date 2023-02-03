@@ -88,8 +88,6 @@ if (navigator.mediaDevices.getUserMedia) {
                 soundClips.removeChild(soundClipChildTags[0]);
             }
 
-            soundClips.getElementsByTagName('article').
-
             audio.controls = true;
             const blob = new Blob(chunks, {'type': 'audio/ogg; codecs=opus'});
             chunks = [];
